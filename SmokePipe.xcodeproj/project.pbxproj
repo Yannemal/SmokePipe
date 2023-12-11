@@ -13,6 +13,12 @@
 		7C25D4612B26B590003CF14C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C25D4602B26B590003CF14C /* Preview Assets.xcassets */; };
 		7C25D4682B26C56E003CF14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C25D4672B26C56E003CF14C /* LaunchScreen.storyboard */; };
 		7C25D46A2B26CED0003CF14C /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C25D4692B26CED0003CF14C /* Smoke.sks */; };
+		7C25D46C2B27048E003CF14C /* Steam.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C25D46B2B27048E003CF14C /* Steam.sks */; };
+		7C25D46E2B270AD2003CF14C /* SteamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25D46D2B270AD2003CF14C /* SteamView.swift */; };
+		7C25D4722B2729B7003CF14C /* thrusterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25D4712B2729B7003CF14C /* thrusterView.swift */; };
+		7C25D4752B272A13003CF14C /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C25D4732B272A13003CF14C /* Fire.sks */; };
+		7C25D4762B272A13003CF14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C25D4742B272A13003CF14C /* Assets.xcassets */; };
+		7C25D4782B2736BB003CF14C /* EarthOrbitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25D4772B2736BB003CF14C /* EarthOrbitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,12 @@
 		7C25D4602B26B590003CF14C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C25D4672B26C56E003CF14C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C25D4692B26CED0003CF14C /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		7C25D46B2B27048E003CF14C /* Steam.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Steam.sks; sourceTree = "<group>"; };
+		7C25D46D2B270AD2003CF14C /* SteamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamView.swift; sourceTree = "<group>"; };
+		7C25D4712B2729B7003CF14C /* thrusterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thrusterView.swift; sourceTree = "<group>"; };
+		7C25D4732B272A13003CF14C /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		7C25D4742B272A13003CF14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C25D4772B2736BB003CF14C /* EarthOrbitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthOrbitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				7C25D4592B26B58F003CF14C /* SmokePipeApp.swift */,
-				7C25D45B2B26B58F003CF14C /* ContentView.swift */,
-				7C25D4692B26CED0003CF14C /* Smoke.sks */,
+				7C25D4702B27290F003CF14C /* VIEWS */,
+				7C25D46F2B2728FD003CF14C /* particles */,
 				7C25D45D2B26B590003CF14C /* Assets.xcassets */,
 				7C25D4672B26C56E003CF14C /* LaunchScreen.storyboard */,
 				7C25D45F2B26B590003CF14C /* Preview Content */,
@@ -71,6 +83,28 @@
 				7C25D4602B26B590003CF14C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7C25D46F2B2728FD003CF14C /* particles */ = {
+			isa = PBXGroup;
+			children = (
+				7C25D46B2B27048E003CF14C /* Steam.sks */,
+				7C25D4692B26CED0003CF14C /* Smoke.sks */,
+				7C25D4732B272A13003CF14C /* Fire.sks */,
+				7C25D4742B272A13003CF14C /* Assets.xcassets */,
+			);
+			path = particles;
+			sourceTree = "<group>";
+		};
+		7C25D4702B27290F003CF14C /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				7C25D45B2B26B58F003CF14C /* ContentView.swift */,
+				7C25D46D2B270AD2003CF14C /* SteamView.swift */,
+				7C25D4712B2729B7003CF14C /* thrusterView.swift */,
+				7C25D4772B2736BB003CF14C /* EarthOrbitView.swift */,
+			);
+			path = VIEWS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +167,9 @@
 			files = (
 				7C25D4682B26C56E003CF14C /* LaunchScreen.storyboard in Resources */,
 				7C25D4612B26B590003CF14C /* Preview Assets.xcassets in Resources */,
+				7C25D46C2B27048E003CF14C /* Steam.sks in Resources */,
+				7C25D4752B272A13003CF14C /* Fire.sks in Resources */,
+				7C25D4762B272A13003CF14C /* Assets.xcassets in Resources */,
 				7C25D45E2B26B590003CF14C /* Assets.xcassets in Resources */,
 				7C25D46A2B26CED0003CF14C /* Smoke.sks in Resources */,
 			);
@@ -145,7 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C25D46E2B270AD2003CF14C /* SteamView.swift in Sources */,
+				7C25D4722B2729B7003CF14C /* thrusterView.swift in Sources */,
 				7C25D45C2B26B58F003CF14C /* ContentView.swift in Sources */,
+				7C25D4782B2736BB003CF14C /* EarthOrbitView.swift in Sources */,
 				7C25D45A2B26B58F003CF14C /* SmokePipeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
