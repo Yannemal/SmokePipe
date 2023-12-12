@@ -19,6 +19,9 @@
 		7C25D4752B272A13003CF14C /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C25D4732B272A13003CF14C /* Fire.sks */; };
 		7C25D4762B272A13003CF14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C25D4742B272A13003CF14C /* Assets.xcassets */; };
 		7C25D4782B2736BB003CF14C /* EarthOrbitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C25D4772B2736BB003CF14C /* EarthOrbitView.swift */; };
+		7C92A4442B288DBD00A8013A /* SnowAndWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C92A4432B288DBD00A8013A /* SnowAndWind.swift */; };
+		7C92A4462B288E2B00A8013A /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C92A4452B288E2B00A8013A /* MyParticle.sks */; };
+		7C92A4482B288F4200A8013A /* Blustery.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C92A4472B288F4200A8013A /* Blustery.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		7C25D4732B272A13003CF14C /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 		7C25D4742B272A13003CF14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C25D4772B2736BB003CF14C /* EarthOrbitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthOrbitView.swift; sourceTree = "<group>"; };
+		7C92A4432B288DBD00A8013A /* SnowAndWind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowAndWind.swift; sourceTree = "<group>"; };
+		7C92A4452B288E2B00A8013A /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		7C92A4472B288F4200A8013A /* Blustery.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Blustery.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,8 @@
 				7C25D46B2B27048E003CF14C /* Steam.sks */,
 				7C25D4692B26CED0003CF14C /* Smoke.sks */,
 				7C25D4732B272A13003CF14C /* Fire.sks */,
+				7C92A4452B288E2B00A8013A /* MyParticle.sks */,
+				7C92A4472B288F4200A8013A /* Blustery.sks */,
 				7C25D4742B272A13003CF14C /* Assets.xcassets */,
 			);
 			path = particles;
@@ -103,6 +111,7 @@
 				7C25D46D2B270AD2003CF14C /* SteamView.swift */,
 				7C25D4712B2729B7003CF14C /* thrusterView.swift */,
 				7C25D4772B2736BB003CF14C /* EarthOrbitView.swift */,
+				7C92A4432B288DBD00A8013A /* SnowAndWind.swift */,
 			);
 			path = VIEWS;
 			sourceTree = "<group>";
@@ -170,8 +179,10 @@
 				7C25D46C2B27048E003CF14C /* Steam.sks in Resources */,
 				7C25D4752B272A13003CF14C /* Fire.sks in Resources */,
 				7C25D4762B272A13003CF14C /* Assets.xcassets in Resources */,
+				7C92A4482B288F4200A8013A /* Blustery.sks in Resources */,
 				7C25D45E2B26B590003CF14C /* Assets.xcassets in Resources */,
 				7C25D46A2B26CED0003CF14C /* Smoke.sks in Resources */,
+				7C92A4462B288E2B00A8013A /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +195,7 @@
 			files = (
 				7C25D46E2B270AD2003CF14C /* SteamView.swift in Sources */,
 				7C25D4722B2729B7003CF14C /* thrusterView.swift in Sources */,
+				7C92A4442B288DBD00A8013A /* SnowAndWind.swift in Sources */,
 				7C25D45C2B26B58F003CF14C /* ContentView.swift in Sources */,
 				7C25D4782B2736BB003CF14C /* EarthOrbitView.swift in Sources */,
 				7C25D45A2B26B58F003CF14C /* SmokePipeApp.swift in Sources */,

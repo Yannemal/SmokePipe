@@ -27,7 +27,7 @@ struct ContentView: View {
     //METHODS:
 }
 
-// smoke particle sks
+// SPRITEKIT: 
 struct SmokeView: UIViewRepresentable {
     
     func makeUIView(context: UIViewRepresentableContext<SmokeView>) -> SKView {

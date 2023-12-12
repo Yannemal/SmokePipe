@@ -42,6 +42,7 @@ struct thrusterView: View {
     
 }
 
+// SPRITEKIT: 
 struct Fire: UIViewRepresentable {
     
     func makeUIView(context: Context) -> SKView {

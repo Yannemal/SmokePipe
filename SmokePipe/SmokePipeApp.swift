@@ -14,7 +14,7 @@ struct SmokePipeApp: App {
     var body: some Scene {
     // someSCENE:
         WindowGroup {
-            EarthOrbitView()
+            SnowAndWind()
         }
     }
     // METHODS:
